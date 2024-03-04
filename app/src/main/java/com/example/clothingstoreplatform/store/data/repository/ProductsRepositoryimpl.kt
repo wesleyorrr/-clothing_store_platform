@@ -1,6 +1,7 @@
 package com.example.clothingstoreplatform.store.data.repository
 
 import arrow.core.Either
+import com.example.clothingstoreplatform.store.data.mapper.toNetwoorkError
 import com.example.clothingstoreplatform.store.data.remote.ProductApi
 import com.example.clothingstoreplatform.store.domain.model.NetworkError
 import com.example.clothingstoreplatform.store.domain.model.Product
@@ -15,6 +16,9 @@ class ProductsRepositoryimpl constructor(
         productsApi.getProduct()
     }
 
-        return TODO("Provide the return value")
+        return Either.catch {
+            productsApi.getProduct()
+
+        }.mapLeft { it.toNetwoorkError() }
     }
 }
