@@ -20,9 +20,14 @@ class ProductsViewModel @Inject constructor(
     val state = _state.asStateFlow()
 
     fun getProducts(){
-        viewModelScope.launch {  }
+        viewModelScope.launch {
         _state.update {
             it.copy(isLoading = true)
+        }
+
+        productsRepository.getProducts()
+
+
         }
 
     }
