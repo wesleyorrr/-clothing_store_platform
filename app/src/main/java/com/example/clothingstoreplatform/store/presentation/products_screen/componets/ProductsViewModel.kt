@@ -28,6 +28,7 @@ class ProductsViewModel @Inject constructor(
         productsRepository.getProducts()
 
 
+
         }
 
     }

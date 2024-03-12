@@ -13,11 +13,11 @@ class ProductsRepositoryimpl constructor(
 ) : ProductsRepository {
     override suspend fun getProducts(): Either<NetworkError, List<Product>> {
     Either.catch {
-        productsApi.getProduct()
+        productsApi.getProducts()
     }
 
         return Either.catch {
-            productsApi.getProduct()
+            productsApi.getProducts()
 
         }.mapLeft { it.toNetwoorkError() }
     }
