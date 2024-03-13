@@ -1,8 +1,7 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
-    kotlin("Kapt")
-    id("com.google.dagger.hilt.android")
+
 }
 
 android {
@@ -103,6 +102,8 @@ dependencies {
         // coil  - tratamento de imagens com Compose
     implementation("io.coil-kt:coil-compose:2.6.0")
     implementation("com.google.dagger:hilt-android:2.44")
+
+    
 
 
 }
