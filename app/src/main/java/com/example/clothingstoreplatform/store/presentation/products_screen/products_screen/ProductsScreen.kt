@@ -10,11 +10,15 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import androidx.lifecycle.ViewModel
+import com.example.clothingstoreplatform.store.presentation.products_screen.componets.ProductsViewModel
 import com.example.clothingstoreplatform.util.components.LoadingDialog
 import com.example.clothingstoreplatform.util.components.MyTopAppBar
 
 @Composable
-internal fun ProductScreen(){
+internal fun ProductScreen(
+    viewModel: ProductsViewModel
+){
 
 }
 

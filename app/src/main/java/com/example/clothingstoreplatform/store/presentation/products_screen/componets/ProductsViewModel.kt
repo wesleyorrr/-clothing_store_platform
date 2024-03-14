@@ -4,6 +4,8 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.clothingstoreplatform.store.domain.repository.ProductsRepository
 import com.example.clothingstoreplatform.store.presentation.products_screen.products_screen.ProductViewState
+import com.example.clothingstoreplatform.store.presentation.products_screen.util.sendEvent
+import com.example.clothingstoreplatform.util.components.Event
 
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -37,8 +39,10 @@ class ProductsViewModel @Inject constructor(
                 _state.update {
                     it.copy(error = error.error.message)
                 }
-
+                sendEvent(Event.Toast(error.error.message))
             }
+
+
             _state.update {
                 it.copy(isLoading = false)
             }
