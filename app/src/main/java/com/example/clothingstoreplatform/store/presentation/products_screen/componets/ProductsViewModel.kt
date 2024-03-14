@@ -3,7 +3,7 @@ package com.example.clothingstoreplatform.store.presentation.products_screen.com
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.clothingstoreplatform.store.domain.repository.ProductsRepository
-import com.example.clothingstoreplatform.store.presentation.products_screen.ProductViewState
+import com.example.clothingstoreplatform.store.presentation.products_screen.products_screen.ProductViewState
 
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
