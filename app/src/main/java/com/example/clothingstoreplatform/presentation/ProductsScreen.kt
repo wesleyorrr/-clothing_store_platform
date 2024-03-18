@@ -1,19 +1,15 @@
-package com.example.clothingstoreplatform.store.presentation.products_screen.products_screen
+package com.example.clothingstoreplatform.presentation
 
-import android.annotation.SuppressLint
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.staggeredgrid.LazyVerticalStaggeredGrid
 import androidx.compose.foundation.lazy.staggeredgrid.StaggeredGridCells
 import androidx.compose.foundation.lazy.staggeredgrid.items
-import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import androidx.lifecycle.ViewModel
-import com.example.clothingstoreplatform.store.presentation.products_screen.componets.ProductsViewModel
 
 import com.example.clothingstoreplatform.util.components.LoadingDialog
 import com.example.clothingstoreplatform.util.components.MyTopAppBar

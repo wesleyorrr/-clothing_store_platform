@@ -1,10 +1,8 @@
-package com.example.clothingstoreplatform.store.presentation.products_screen.componets
+package com.example.clothingstoreplatform.presentation
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.clothingstoreplatform.store.domain.repository.ProductsRepository
-import com.example.clothingstoreplatform.store.presentation.products_screen.products_screen.ProductViewState
-import com.example.clothingstoreplatform.store.presentation.products_screen.util.sendEvent
 import com.example.clothingstoreplatform.util.components.Event
 
 import dagger.hilt.android.lifecycle.HiltViewModel

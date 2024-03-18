@@ -1,4 +1,4 @@
-package com.example.clothingstoreplatform.store.presentation.products_screen.util
+package com.example.clothingstoreplatform.presentation
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

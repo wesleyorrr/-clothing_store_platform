@@ -1,4 +1,4 @@
-package com.example.clothingstoreplatform.store.presentation.products_screen.componets
+package com.example.clothingstoreplatform.presentation
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
