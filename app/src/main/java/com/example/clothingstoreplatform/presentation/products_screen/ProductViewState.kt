@@ -1,4 +1,4 @@
-package com.example.clothingstoreplatform.presentation
+package com.example.clothingstoreplatform.presentation.products_screen
 
 import com.example.clothingstoreplatform.store.domain.model.Product
 

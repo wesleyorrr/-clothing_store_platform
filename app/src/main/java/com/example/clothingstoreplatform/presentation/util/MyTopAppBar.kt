@@ -1,4 +1,4 @@
-package com.example.clothingstoreplatform.util.components
+package com.example.clothingstoreplatform.presentation.util
 
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Text
