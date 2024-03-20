@@ -1,4 +1,4 @@
-package com.example.clothingstoreplatform.presentation.util
+package com.example.clothingstoreplatform.util
 
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.receiveAsFlow

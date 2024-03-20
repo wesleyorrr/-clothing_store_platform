@@ -1,4 +1,4 @@
-package com.example.clothingstoreplatform.presentation.util.components
+package com.example.clothingstoreplatform.store.presentation.util.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box

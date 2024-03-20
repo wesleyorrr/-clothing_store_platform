@@ -1,4 +1,4 @@
-package com.example.clothingstoreplatform.presentation.products_screen
+package com.example.clothingstoreplatform.store.presentation.products_screen
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.fillMaxSize
@@ -10,10 +10,9 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.example.clothingstoreplatform.presentation.ProductsViewModel
 
-import com.example.clothingstoreplatform.presentation.util.components.LoadingDialog
-import com.example.clothingstoreplatform.presentation.util.MyTopAppBar
+import com.example.clothingstoreplatform.store.presentation.util.components.LoadingDialog
+import com.example.clothingstoreplatform.store.presentation.util.components.MyTopAppBar
 
 
 @Composable
