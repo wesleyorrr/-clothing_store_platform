@@ -15,7 +15,10 @@ import com.example.clothingstoreplatform.store.presentation.util.components.Load
 import com.example.clothingstoreplatform.store.presentation.util.components.MyTopAppBar
 
 
+
 @Composable
+
+
 internal fun ProductScreen(
 viewModel: ProductsViewModel
 
